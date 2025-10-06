@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" href="./assets/images/icon.png">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>O que você quer?</h1>
+        </header>
+
+        <main id="item-grid">
+            <div class="card" data-name="CAFÉ" data-audio="./assets/audio/cafe.mp3">
+                <img src="./assets/images/cafe.png" alt="Café">
+            </div>
+
+            <div class="card" data-name="GATO" data-audio="./assets/audio/gato.mp3">
+                <img src="./assets/images/gato.png" alt="Gato">
+            </div>
+
+            <div class="card" data-name="COBERTOR" data-audio="./assets/audio/cobertor.mp3">
+                <img src="./assets/images/cobertor.png" alt="Cobertor">
+            </div>
+        </main>
+
+        <footer>
+            <div id="display-area">
+                <p id="display-text"></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
